@@ -1,0 +1,10 @@
+rank	motif_DB	motif_ID	motif_alt_ID	consensus	p-value	adj_p-value	E-value	tests	FASTA_max	pos	neg	PWM_min	TP	%TP	FP	%FP
+1	motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme	MA0377.1	SFL1	WHVHDNATMGAAGAAAWAWWW	1.23e-7	6.87e-4	1.23e-1	5576	722	722	10785	1.31	357	49.45	4267	39.56
+2	motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme	MA0929.1	NCU00019	NNDGTAAAYAHA	6.30e-7	2.16e-3	3.86e-1	3427	722	722	10785	1.14	239	33.10	2666	24.72
+3	motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme	MA0356.1	PHO2	WTAWTW	1.81e-5	2.65e-2	4.75e0	1483	722	722	10785	1.01	130	18.01	1337	12.40
+4	motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme	MA0336.1	MGA1	DDNRNKATAGAACAYTHHDWV	1.33e-5	3.14e-2	5.62e0	2399	722	722	10785	1.06	190	26.32	2112	19.58
+5	motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme	MA0378.1	SFP1	WNNNDRAAAAWTTTTYYNYDD	2.55e-5	3.77e-2	6.75e0	1507	722	722	10785	1.69	91	12.60	861	7.98
+
+# AME (Analysis of Motif Enrichment): Version 5.5.7 compiled on Aug 29 2024 at 17:49:19
+# The format of this file is described at https://meme-suite.org/meme/doc/ame-output-format.html.
+# ame --verbose 1 --oc . --scoring avg --method fisher --hit-lo-fraction 0.25 --evalue-report-threshold 10.0 --control Neucr2_GeneCatalog_transcripts_20130412.nt.fasta 1hr_up_FC1_ncu_list.fasta motif_db/JASPAR/JASPAR2022_CORE_fungi_non-redundant_v2.meme
